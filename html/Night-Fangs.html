@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Forests | Сервер Night Fangs</title>
+    <link rel="icon" href="../favicon.ico" type="images/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand header__heading" href="../index.html">Dark Forests</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="news.html">Новости</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacts.html">Контакты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="support.html">Помощь</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section-ServerTitle">
+            <div class="container">
+                <h2>Night Fangs</h2>
+                <div class="section-ServerTitle__content">
+                    <p>IP: <span id="copyElement">DFNightFangsMinecraft.ploudos.me</span></p>
+                    <button class="section-ServerTitle__btn" id="copyBtn" type="button">ИГРАТЬ СЕЙЧАС</button>
+                    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                      <div id="liveToast" class="toast toast-header shadow-none section-ServerTitle__alert" role="alert" aria-live="assertive" aria-atomic="true">
+                          <img class="rounded me-2 section-ServerTitle__img" src="../assets/images/icons/checkmark_apply_checked_done_accept_icon_176962.png"  alt="Галочка">
+                          <strong class="me-auto section-ServerTitle__alert-text">IP скопировано!</strong>
+                          <button type="button" class="btn-close section-ServerTitle__alert-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-description">
+            <div class="container">
+                <h2>Описание</h2>
+                <p class="section-description__version">Версия игры: 1.16.5</p>
+                <p class="section-description__version">Версия мод пака: 1.2</p>
+                <p class="section-description__text">
+                    Night Fangs - фентезийная вселенная, что погрузит вас в необычный мир, наполненный всякими фантастичными тварями.
+                    <br>
+                    Вам предстоит узнать все тайны этой вселенной, находя отрывки из справочника путешественников. Изучая мир вам предстоит встретиться с четырьмя фракциями, что ведут нескончаемую войну за власть, и пытаются установить свои нерушимые порядки. Вы можете присоединиться к одной из фракций, либо остаться одиноким путешественником, что создаёт свою историю.
+                </p>
+            </div>
+        </section>
+        <section class="section-ModPack">
+            <div class="container">
+                <h4>Содержимое мод пака</h4>
+                <p>
+                    <span class="section-ModPack__list-title">Моды:</span> 
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/zombie-awareness">Zombie Awareness</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons">Ice and Fire: Dragons</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/falling-tree">FallingTree (Forge&Fabric)</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty">Biomes O' Plenty</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/passable-foliage">Passable Foliage (Forge)</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/guide-api-village-and-pillage">Guide-API Village and Pillage</a>,
+                    <br>
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire">Vampirism - Become a vampire!</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/vampires-need-umbrellas">Vampires Need Umbrellas</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/werewolves-become-a-beast">Werewolves - Become a Beast!</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/backpacking">Backpacking</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/enhancedvisuals">EnhancedVisuals</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/first-aid">First Aid</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/custom-npcs">Custom NPCs</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/corpse">Corpse</a>,
+                    <br>
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings">Dynamic Surroundings</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/realistic-torches">Realistic Torches</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/jei">Just Enough Items (JEI)</a>.
+                </p>  
+                <p>  
+                    <span class="section-ModPack__list-title">Библиотеки:</span>
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/coroutil">CoroUtil</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/citadel">Citadel</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">Cloth Config API (Fabric/Forge)</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/kiwi">Kiwi (Forge)</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/curios">Curios API (Forge)</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/creativecore">CreativeCore</a>.
+                </p> 
+                <p>
+                    <span class="section-ModPack__list-title">Оптимизаторы:</span>
+                    <a class="section-ModPack__link" href="https://www.optifine.net/home">OptiFine</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/ai-improvements">Ai Improverments</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance">Better Fps - Render Distance[Forge]</a>.
+                </p>
+                <p>
+                    <span class="section-ModPack__list-title">Текстуры:</span>
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/texture-packs/uncontrolled-grass">Uncontrolled Grass</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/texture-packs/torches-reimagined">Torches Reimagined</a>.
+                </p>
+                <a href="https://disk.yandex.ru/d/3v04IPWIIZSJnw" class="section-ModPack__download-btn" id="downloadModPack">Скачать модпак с Яндекс.Диска</a>
+            </div>
+        </section>
+        <section class="section-law">
+            <div class="container">
+                <h2>Правила</h2>
+                <ol>
+                    <li>Запрещено использование сторонних программ повышающий скилл, количество определённых ресурсов у игрока.</li>
+                    <li>Запрещён багоюз и использование внутренних ошибок сервера или игры.</li>
+                    <li>Запрещена продажа внутриигровых ресурсов за реальные деньги.</li>
+                    <li>Запрещён снос чужой базы или алтаря другим игроком, без согласия владельца объекта.</li>
+                </ol>    
+            </div>
+        </section>
+        <section class="section-administration">
+            <div class="container">
+                <h2 class="section-administration__heading">Создатели сервера</h2>
+                <div class="section-administration__contents">
+                    <div class="section-administration__content">
+                        <img class="section-administration__avatar" src="../assets/images/ava1.png" alt="Аватар создателя сервера">
+                        <p class="section-administration__name">KOTEtyt</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <hr>
+            <div class="footer__SiteName">
+                <img class="footer__logo" src="../assets/images/logo.png" alt="Логотип сайта">
+                <h4>Dark Forests</h4>
+            </div>
+            <p>© Вятских М. Л., 2023. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="../java/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Itim&display=swap');
+*{
+    color: white; 
+    font-family: 'Itim', cursive;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+    background-color: #15151b;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.header__heading{
+    font-family: 'Comforter Brush', cursive;
+    font-size: 35px;
+}
+.section-CompanySlogan__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 20px 185px 20px;    
+}
+.section-CompanySlogan__container-mascot{
+    background-color: #1e1e24;
+    border-radius: 2% 50% 50% 2%;
+}
+.section-CompanySlogan__mascot{
+    max-height: 500px;
+    max-width: 500px;
+}
+.section-CompanySlogan__text-content{
+    max-width: 400px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.section-CompanySlogan__text{
+    font-size: 15px;
+    opacity: .7;
+    margin-bottom: 30px;
+}
+.section-CompanySlogan__btn{
+    text-decoration: none;
+    background-color: #ff8200; 
+    border: 2px solid #ff8200;
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+    padding: 16px 32px 16px 32px;
+}
+.section-CompanySlogan__btn:hover{
+    background-color: #15151b;
+    color: #ff8200;
+    transition: 0.5s;
+}
+.text-link{
+    padding: 2px;
+    color: #ff8200;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.text-link:hover{
+    color: #15151b;
+    background-color: white;
+    transition: 0.8s;
+}
+.section-servers__contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section-servers__content{
+    width: 300px;
+    height: 380px;
+    border: 1px solid #1e1e24;
+    padding: 20px 8px 0 8px;
+    border-radius: 25px;
+    margin: 15px 8px 15px 8px;
+    text-align: center;
+}
+.section-servers__content:hover{
+    background-color: #2e2e36;
+    transition: 0.3s;
+}
+.section-servers__content img{
+    max-width: 290px;
+    max-height: 150px;
+    margin: -5px 0 10px 0;
+    border-radius: 25px 25px 25px 25px;
+}
+.section-servers__content h3{
+    text-align: center;
+}
+.section-servers__btn, .section-adminContacts__btnCopy{
+    text-decoration: none;
+    color: white;
+    background-color: #27272d; 
+    border: 1px solid #2e2e36;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+}
+.section-servers__btn:hover, .section-adminContacts__btnCopy:hover{
+    background-color: #ff8200; 
+    border: 1px solid #ff8200;
+}
+.section-LinkGuide__content{
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-LinkGuide__text{
+    margin-right: 20px;
+}
+.section-LinkGuide__content img{
+    max-width: 300px;
+    max-height: 300px;
+}
+.section-ServerTitle .container{
+    background-image: url("../assets/gif/oie_4192549ZOcWNmQU.gif");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    height: 200px;
+    padding-top: 100px;
+}
+.section-ServerTitle__btn{
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(28,28,28,0);
+    padding: 10px;
+    color: #ff8200;
+    text-decoration: none;
+}
+.section-ServerTitle__btn:hover{
+    background-color: rgb(39,39,45,35%);
+}
+
+.section-ServerTitle__alert{
+    background-color: #051b11;
+    border: 1px solid #0f5132;
+}
+.section-ServerTitle__img{
+    max-width: 15px;
+    max-height: 15px;
+}
+.section-ServerTitle__alert-text{
+    color: #75b798;
+}
+.section-ServerTitle__alert-close, .section-ServerTitle__img{
+    filter: invert(68%) sepia(14%) saturate(808%) hue-rotate(100deg) brightness(96%) contrast(86%);
+}
+
+.section-description{
+    margin-top: 80px;
+}
+.section-description__version{
+    font-weight: 600;
+}
+.section-description__text{
+    margin-left: 25px;
+}
+.section-ModPack__link{
+    padding: 2px;
+    color: #ff8200;
+    border-radius: 5px;
+}
+.section-ModPack__link:hover{
+    text-decoration: none;
+    color: #15151b;
+    background-color: white;
+    transition: 0.8s;
+}
+.section-ModPack__download-btn{
+    padding: 8px;
+    text-decoration: none; 
+    background-color: #75b798;
+    color: #0f5132;
+    border-radius: 15px;
+}
+.section-ModPack__download-btn:hover{
+    padding: 10px;
+}
+.section-administration, .section-law{
+    margin-top: 30px;
+}
+.section-administration .container{
+    background-image: url("../assets/gif/Bz0m.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    height: 400px;
+    border-radius: 40px;
+}
+.section-administration__heading{
+    text-align: center;
+    padding: 35px;
+    font-size: 38px;
+}
+.section-administration__contents{
+    display: flex;
+    justify-content: center;
+}
+.section-administration__content{
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(30,30,36,42%);
+    border-radius: 25px;
+}
+.section-administration__content:hover{
+    border: 3px solid #2e2e36;
+    background-color: rgb(30,30,36,65%);
+}
+.section-administration__name{
+    font-size: 25px;
+}
+.section-administration__avatar{
+    max-width: 250px;
+    max-height: 250px;
+}
+.section-adminContacts, .section-chats{
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+.section-adminContacts__informations{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.section-chats__informations{
+    display: flex;
+    justify-content: center;
+}
+.section-adminContacts__contact, .section-chats__contact{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.section-chats__contact{
+    margin-left: 20px;
+}
+.section-adminContacts__contact img, .section-chats__contact img{
+    margin-right: 10px;
+    max-height: 112.5px;
+    max-width: 200px;
+}
+.section-adminContacts__contact p{
+    padding-top: 15px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.section-adminContacts__btnCopy{
+    padding: 5px;
+}
+.section-adminContacts__btnCopy:hover{
+    transition: 0.5s;
+}
+.section-adminContacts__text{
+    padding: 2px;
+    color: #ff8200;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.section-adminContacts__text:hover, .section-answer__link:hover{
+    text-decoration: none;
+    color: #15151b;
+    background-color: white;
+    transition: 0.8s;
+}
+.section-news__noNews{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    padding: 25px;
+}
+.section-support__title{
+    text-align: center;
+    padding: 20px;
+}
+.section-support__title nav{
+    display: flex;
+    justify-content: flex-start;
+}
+.section-support__dropdown{
+    padding-left: 10px;
+}
+.section-answer__heading{
+    text-align: center;
+}
+.section-answer__content{
+    padding: 10px;
+}
+.section-answer__content p{
+    text-align: justify;
+}
+.section-answer__imgs{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.section-answer__img{
+    max-width: 432.307692px;
+    max-height: 280px;
+}
+.section-answer__link{
+    padding: 2px;
+    color: #ff8200;
+    border-radius: 5px;
+}
+.section-answer__notice, .section-answer__notice-log, .section-answer__notice-serv{
+    margin-bottom: -20px;
+    max-width: 20px;
+    max-height: 20px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+.section-answer__notice-log{
+    margin-bottom: 0;
+}
+.section-answer__notice-text{
+    margin: 10px 0 10px 0;
+}
+.section-answer__notice-text span{
+    padding-left: 25px;
+}
+.section-answer__conteiner-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-answer__content video{
+    max-width: 1220px;
+    max-height: 693px;
+}
+.section-answer__notice-serv{
+    margin-bottom: -45px;
+}
+.footer__SiteName{
+    display: flex;
+    align-items: center;
+}
+.footer__logo{
+    margin-top: -10px;
+    max-width: 50px;
+    max-height: 50px;
+}
+@media screen and (max-width: 768px){
+    .section-CompanySlogan__mascot{
+        max-height: 350px;
+        max-width: 350px;
+    }
+    .section-CompanySlogan__text-content{
+        max-width: 300px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    .section-CompanySlogan__text{
+        font-size: 13px;
+    }
+    .section-LinkGuide__content img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .section-answer__img-reg{
+        max-width: 276px;
+        max-height: 323px;
+    }
+    .section-answer__img{
+        max-width: 381px;
+        max-height: 184;
+    }
+}
+@media screen and (max-width: 576px){
+    .section-CompanySlogan__mascot{
+        max-height: 250px;
+        max-width: 250px;
+    }
+    .section-CompanySlogan__text-content{
+        max-width: 225px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .section-CompanySlogan__text{
+        font-size: 11px;
+    }
+    .section-CompanySlogan__btn{
+        border-radius: 12px;
+        font-size: 14px;
+        padding: 12px 28px 12px 28px;
+    }
+    .section-servers__contents{
+        justify-content: center;
+    }
+    .section-LinkGuide__text h3{
+        font-size: 18px;
+    }
+    .section-LinkGuide__text p{
+        font-size: 12px;
+    }
+    .section-LinkGuide__content img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .section-news__noNews img{
+        max-width: 260px;
+        max-height: 172px;
+    }
+    .section-adminContacts__contact img, .section-chats__contact img{
+        max-height: 42.5px;
+        max-width: 130px;
+    }
+    .section-adminContacts__contact p{
+        padding-top: 10px;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+    .section-adminContacts__btnCopy{
+        font-size: 12px;
+        padding: 3px;
+    }
+    .section-adminContacts__text{
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width: 378px){
+    .section-CompanySlogan__mascot{
+        max-height: 230px;
+        max-width: 230px;
+    }
+    .section-CompanySlogan__text-content{
+        max-width: 130px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .section-CompanySlogan__text{
+        font-size: 8px;
+    }
+    .section-CompanySlogan__btn{
+        font-size: 10px;
+        border-radius: 10px;
+        padding: 8px 20px 8px 20px;
+    }
+    .section-LinkGuide__text h3{
+        font-size: 14px;
+    }
+    .section-LinkGuide__text p{
+        font-size: 8px;
+    }
+    .section-LinkGuide__content img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .section-news__noNews h3{
+        font-size: 18px;
+    }
+    .section-news__noNews img{
+        max-width: 200px;
+        max-height: 102px;
+    }
+    .section-adminContacts__informations{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Forests | Сервер Creative</title>
+    <link rel="icon" href="../favicon.ico" type="images/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand header__heading" href="../index.html">Dark Forests</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="news.html">Новости</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacts.html">Контакты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="support.html">Помощь</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section-ServerTitle">
+            <div class="container">
+                <h2>Creative</h2>
+                <div class="section-ServerTitle__content">
+                    <p>IP: <span id="copyElement">DFCreativeMinecraft.ploudos.me</span></p>
+                    <button class="section-ServerTitle__btn" id="copyBtn">ИГРАТЬ СЕЙЧАС</button>
+                    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                      <div id="liveToast" class="toast toast-header shadow-none section-ServerTitle__alert" role="alert" aria-live="assertive" aria-atomic="true">
+                          <img class="rounded me-2 section-ServerTitle__img" src="../assets/images/icons/checkmark_apply_checked_done_accept_icon_176962.png"  alt="Галочка">
+                          <strong class="me-auto section-ServerTitle__alert-text">IP скопировано!</strong>
+                          <button type="button" class="btn-close section-ServerTitle__alert-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-description">
+            <div class="container">
+                <h2>Описание</h2>
+                <p class="section-description__version">Версия игры: 1.19.2</p>
+                <p class="section-description__version">Версия мод пака: 1.3</p>
+                <p class="section-description__text">
+                    Creative - это уникальный сервер для строительства, где ваши способности расширены с помощью специальных модов и плагинов.
+                    <br>
+                    Сервер позволяет вам почувствовать себя настоящим творцом, что кропотливо, кубик к кубику, выстраивает невероятный шедевр. На сервере помимо стандартных возможностей креатива, есть специальные инструменты для изменения структуры блоков; новые блоки, что смогут улучшить вашу постройку и сделать её непохожей на какую-либо другую; новая система механизмов.
+                </p>
+            </div>
+        </section>
+        <section class="section-ModPack">
+            <div class="container">
+                <h4>Содержимое мод пака</h4>
+                <p>
+                    <span class="section-ModPack__list-title">Моды:</span> 
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/chisels-bits">Chisels & Bits - For Forge</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/flywheel">Flywheel</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/sooty-chimneys">Soory Chimneys</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod">MrCrayfish's Furniture Mod</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/macaws-windows">Macaw's Windows</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/macaws-doors">Macaw's Doors</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors">Macaw's Trapdoors</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/mc-paint">MC Paint</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/extended-creative-inventory">Extended Creative Inventory</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/prefab">Prefab</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/effective-forge">Effective (Forge)</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/fantasys-furniture">Fantasy's Furniture</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty">Biomes O' Plenty</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/passable-foliage">Passable Foliage (Forge)</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/blues-dynamic-lights">Blue's Dynamic Lights</a>.
+                </p>  
+                <p>  
+                    <span class="section-ModPack__list-title">Библиотеки:</span>
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/fabric-api">Fabric API</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/collective">Collective</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/apexcore">ApexCore</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/terrablender">TerraBlender (Forge)</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/kiwi">Kiwi (Forge)</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">Cloth Config API (Fabric/Forge)</a>.
+                </p> 
+                <p>
+                    <span class="section-ModPack__list-title">Оптимизаторы:</span>
+                    <a class="section-ModPack__link" href="https://www.optifine.net/home">OptiFine</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/ai-improvements">Ai Improverments</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance">Better Fps - Render Distance[Forge]</a>.
+                </p>
+                <p>
+                    <span class="section-ModPack__list-title">Текстуры:</span>
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/texture-packs/fresh-animations">Flesh Animations</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/texture-packs/snod-animated-torches">Snod Animated Torches</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/texture-packs/spawn-egg-3d">Spawn Egg 3D</a>,
+                    <a class="section-ModPack__link" href="https://www.curseforge.com/minecraft/texture-packs/uncontrolled-grass">Uncontrolled Glass</a>.
+                </p>
+                <a href="https://disk.yandex.ru/d/G1rAR0VI8CMY-Q" class="section-ModPack__download-btn" id="downloadModPack">Скачать модпак с Яндекс.Диска</a>
+            </div>
+        </section>
+        <section class="section-law">
+            <div class="container">
+                <h2>Правила</h2>
+                <ol>
+                    <li>Запрещено использование сторонних программ повышающий скилл, количество определённых ресурсов у игрока.</li>
+                    <li>Запрещён багоюз и использование внутренних ошибок сервера или игры.</li>
+                    <li>Запрещена продажа внутриигровых ресурсов за реальные деньги.</li>
+                    <li>Запрещены любые взаимодействия с чужими постройками, защищенными авторским правом сервера, без разрешения их автора.</li>
+                </ol>
+            </div>
+        </section>
+        <section class="section-administration">
+            <div class="container">
+                <h2 class="section-administration__heading">Создатели сервера</h2>
+                <div class="section-administration__contents">
+                    <div class="section-administration__content">
+                        <img class="section-administration__avatar" src="../assets/images/ava1.png" alt="Аватар создателя сервера">
+                        <p class="section-administration__name">KOTEtyt</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <hr>
+            <div class="footer__SiteName">
+                <img class="footer__logo" src="../assets/images/logo.png" alt="Логотип сайта">
+                <h4>Dark Forests</h4>
+            </div>
+            <p>© Вятских М. Л., 2023. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="../java/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
